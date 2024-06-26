@@ -24,43 +24,43 @@ const Home: NextPage = () => {
           <div
             className="hero min-h-screen"
             style={{
-              backgroundImage: "url(/Design.png)",
+              backgroundImage: "url(/Design1.png)",
               backgroundSize: "contain", // Ajusta la imagen para cubrir todo el contenedor
               backgroundPosition: "center", // Centra la imagen
               backgroundRepeat: "no-repeat", // Evita que la imagen se repita
             }}
           >
-            <div className="hero-content text-neutral-content text-center">
+            <div className="hero-content text-neutral-content text-center flex flex-col justify-end h-full">
               <div className="max-w-md">
-                <h1 className="mb-5 text-5xl font-bold">I am PabloDrm</h1>
-                <p className="mb-5">NFT artist & Builder</p>
-                <button className="btn btn-primary">Get Started</button>
+                <h1 className="mb-5 text-5xl font-bold">
+                  <span className="text-white" style={{ textShadow: "0 0 5px black, 0 0 2px black, 0 0 2px black" }}>
+                    I am
+                  </span>
+                  <br />
+                  <span className="text-white" style={{ textShadow: "0 0 5px black, 0 0 2px black, 0 0 2px black" }}>
+                    PabloDrum
+                  </span>
+                </h1>
+                <p className="mb-5 text-white">
+                  <span className="text-white" style={{ textShadow: "0 0 5px black, 0 0 5px black, 0 0 5px black" }}>
+                    NFT artist & Web 3.0 Builder
+                  </span>
+                </p>
               </div>
             </div>
           </div>
-          <div className="carousel rounded-box">
-            <div className="carousel-item">
-              <img src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" alt="Burger" />
-            </div>
-            <div className="carousel-item">
-              <img src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.jpg" alt="Burger" />
-            </div>
-            <div className="carousel-item">
-              <img src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.jpg" alt="Burger" />
-            </div>
-            <div className="carousel-item">
-              <img src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.jpg" alt="Burger" />
-            </div>
-            <div className="carousel-item">
-              <img src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.jpg" alt="Burger" />
-            </div>
-            <div className="carousel-item">
-              <img src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.jpg" alt="Burger" />
-            </div>
-            <div className="carousel-item">
-              <img src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.jpg" alt="Burger" />
-            </div>
-          </div>
+
+          <div
+            className="rounded-box"
+            style={{
+              backgroundImage: "url(/AboutMe.png)",
+              backgroundSize: "contain", // Ajusta la imagen para contener todo el contenedor
+              backgroundPosition: "center", // Centra la imagen
+              backgroundRepeat: "no-repeat", // Evita que la imagen se repita
+              width: "100%", // Ajusta el ancho al 100%
+              height: "500px", // Ajusta la altura según sea necesario
+            }}
+          ></div>
 
           <div className="carousel rounded-box w-64">
             <div className="carousel-item w-full">
@@ -218,17 +218,6 @@ const Home: NextPage = () => {
             </li>
           </ul>
           <div className="skeleton h-32 w-32"></div>
-          <div className="flex w-full flex-col">
-            <div className="divider">Default</div>
-            <div className="divider divider-neutral">Neutral</div>
-            <div className="divider divider-primary">Primary</div>
-            <div className="divider divider-secondary">Secondary</div>
-            <div className="divider divider-accent">Accent</div>
-            <div className="divider divider-success">Success</div>
-            <div className="divider divider-warning">Warning</div>
-            <div className="divider divider-info">Info</div>
-            <div className="divider divider-error">Error</div>
-          </div>
 
           {/* <p className="text-center text-lg">
             Get started by editing{" "}

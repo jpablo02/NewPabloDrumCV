@@ -57,6 +57,17 @@ const Home: NextPage = () => {
               height: "500px",
             }}
           ></div>
+          <div
+            className="Skills"
+            style={{
+              backgroundImage: "url(/hardsoftskills.png)",
+              backgroundSize: "contain",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+              width: "100%",
+              height: "500px",
+            }}
+          ></div>
 
           {/* Aquí se eliminó el carrusel */}
 

@@ -22,7 +22,7 @@ const Home: NextPage = () => {
             style={{
               backgroundImage: "url(/1ajust.png)",
               backgroundSize: "cover",
-              backgroundPosition: "cover",
+              backgroundPosition: "center top",
               backgroundRepeat: "no-repeat",
             }}
           >

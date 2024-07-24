@@ -8,21 +8,21 @@ import { Address } from "~~/components/scaffold-eth";
 
 const Home: NextPage = () => {
   const { address: connectedAddress } = useAccount();
+  <div className="flex justify-center items-center space-x-2 flex-col sm:flex-row">
+    <p className="my-2 font-medium">Connected Address:</p>
+    <Address address={connectedAddress} />
+  </div>;
 
   return (
     <>
       <div className="flex items-center flex-col flex-grow pt-10">
         <div className="px-5 w-full">
-          <div className="flex justify-center items-center space-x-2 flex-col sm:flex-row">
-            <p className="my-2 font-medium">Connected Address:</p>
-            <Address address={connectedAddress} />
-          </div>
           <div
             className="hero min-h-screen"
             style={{
-              backgroundImage: "url(/Design1.png)",
-              backgroundSize: "contain",
-              backgroundPosition: "center",
+              backgroundImage: "url(/1ajust.png)",
+              backgroundSize: "cover",
+              backgroundPosition: "cover",
               backgroundRepeat: "no-repeat",
             }}
           >
@@ -49,7 +49,7 @@ const Home: NextPage = () => {
           <div
             className="AboutMe"
             style={{
-              backgroundImage: "url(/AboutMe.png)",
+              backgroundImage: "url(2ajust.png)",
               backgroundSize: "contain",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
@@ -60,7 +60,7 @@ const Home: NextPage = () => {
           <div
             className="Skills"
             style={{
-              backgroundImage: "url(/hardsoftskills.png)",
+              backgroundImage: "url(3ajust.png)",
               backgroundSize: "contain",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
@@ -68,15 +68,50 @@ const Home: NextPage = () => {
               height: "500px",
             }}
           ></div>
-
-          {/* Aquí se eliminó el carrusel */}
-
-          {/* <p className="text-center text-lg">
-            Get started by editing{" "}
-            <code className="italic bg-base-300 text-base font-bold max-w-full break-words break-all inline-block">
-              packages/nextjs/app/page.tsx
-            </code>
-          </p> */}
+          <div
+            className="Skills"
+            style={{
+              backgroundImage: "url(4ajust.png)",
+              backgroundSize: "contain",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+              width: "100%",
+              height: "500px",
+            }}
+          ></div>
+          <div
+            className="Skills"
+            style={{
+              backgroundImage: "url(5ajust.png)",
+              backgroundSize: "contain",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+              width: "100%",
+              height: "500px",
+            }}
+          ></div>
+          <div
+            className="Skills"
+            style={{
+              backgroundImage: "url(6ajust.png)",
+              backgroundSize: "contain",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+              width: "100%",
+              height: "500px",
+            }}
+          ></div>
+          <div
+            className="Skills"
+            style={{
+              backgroundImage: "url(7ajust.png)",
+              backgroundSize: "contain",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+              width: "100%",
+              height: "500px",
+            }}
+          ></div>
         </div>
       </div>
     </>

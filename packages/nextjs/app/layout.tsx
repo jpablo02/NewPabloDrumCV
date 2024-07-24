@@ -23,7 +23,45 @@ const ScaffoldEthApp = ({ children }: { children: React.ReactNode }) => {
         }}
       >
         <ThemeProvider enableSystem>
-          <ScaffoldEthAppWithProviders>{children}</ScaffoldEthAppWithProviders>
+          <ScaffoldEthAppWithProviders>
+            {/* <div
+              className="hero min-h-screen"
+              style={{
+                backgroundImage: "url(1ajust.png)",
+                backgroundSize: "cover",
+                backgroundPosition: "center top",
+                backgroundRepeat: "no-repeat",
+              }}
+            ></div>
+            <div
+              className="hero min-h-screen"
+              style={{
+                backgroundImage: "url(2ajust.png)",
+                backgroundSize: "cover",
+                backgroundPosition: "center top",
+                backgroundRepeat: "no-repeat",
+              }}
+            ></div>
+            <div
+              className="hero min-h-screen"
+              style={{
+                backgroundImage: "url(3ajust.png)",
+                backgroundSize: "cover",
+                backgroundPosition: "center top",
+                backgroundRepeat: "no-repeat",
+              }}
+            ></div>
+            <div
+              className="hero min-h-screen"
+              style={{
+                backgroundImage: "url(4ajust.png)",
+                backgroundSize: "cover",
+                backgroundPosition: "center top",
+                backgroundRepeat: "no-repeat",
+              }}
+            ></div> */}
+            {children}
+          </ScaffoldEthAppWithProviders>
         </ThemeProvider>
       </body>
     </html>
